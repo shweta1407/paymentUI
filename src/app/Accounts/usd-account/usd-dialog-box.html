@@ -1,0 +1,42 @@
+
+<style>
+h1{
+    background-color: rgb(239, 83, 81);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+background-color: dodgerblue;
+color: #fff;
+margin-left: 20px;
+}
+.d{
+    width:500px;
+}
+
+</style>
+
+
+<h1 mat-dialog-title>{{description}}</h1>
+
+
+<div mat-dialog-content>
+    <mat-form-field>
+        <input matInput placeholder="Recepient Name" [(ngModel)] = "data.receipient_name" required>
+    </mat-form-field> <br>
+    <mat-form-field>
+        <input matInput placeholder="Recepient Account Number" [(ngModel)] = "data.account_number" required>
+     </mat-form-field> <br>
+    <mat-form-field>
+        <input matInput placeholder="Amount" [(ngModel)] = "data.amount" required>
+    </mat-form-field>
+  </div>
+
+<mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="data" tabindex="2">Save</button>
+    <button mat-button mat-dialog-close tabindex="-1">Close</button>
+</mat-dialog-actions>
+

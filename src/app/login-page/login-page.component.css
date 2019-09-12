@@ -1,0 +1,143 @@
+body {
+    width: 420px;
+    height: 100px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    
+    color: #fff;
+    
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#container {
+position: fixed;
+width: 420px;
+height: 500px;
+top: 35%;
+left: 78%;
+margin-top: -140px;
+margin-left: -185px;
+background: #fff;
+border-radius: 3px;
+border: 1px solid #ccc;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+
+}
+
+#container1 {
+position: fixed;
+width: 800px;
+height: 500px;
+top: 35%;
+right: 36%;
+margin-top: -140px;
+margin-left: -185px;
+background: #fff;
+border-radius: 3px;
+border: 1px solid #ccc;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+
+}
+
+
+form {
+margin: 0 auto;
+margin-top: 20px;
+}
+
+label {
+color: #555;
+display: inline-block;
+margin-left: 30px;
+padding-top: 10px;
+font-size: 14px;
+
+}
+
+p {
+color: #555;
+
+margin-top: 25px;
+margin-left:100px;
+font-size: 14px;
+padding-top: 10px;
+}
+
+a{
+color: #0709a3;
+}
+
+input {
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+font-size: 12px;
+outline: none;
+}
+
+input[type=text],
+input[type=password] {
+color: rgb(7, 7, 7);
+padding-left: 10px;
+margin: 10px;
+margin-top: 18px;
+margin-left: 30px;
+width: 350px;
+height: 35px;
+border: 1px solid #c7d0d2;
+border-radius: 2px;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+transition: all .4s ease;
+}
+
+input[type=text]:hover,
+input[type=password]:hover {
+border: 1px solid #b6bfc0;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+border: 1px solid #a8c9e4;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+
+
+button[type=submit] {
+
+margin-left: 30px;
+margin-right: 20px;
+margin-top: 35px;
+width: 350px;
+height: 40px;
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+background-color: #2c0cb8; /*IE fallback*/
+background-image: -webkit-gradient(linear, left top, left bottom, from(#09578b), to(#0709a3));
+background-image: -moz-linear-gradient(top left 90deg, #0d689c 0%, #0d1eb6 100%);
+background-image: linear-gradient(top left 90deg, #095f91 0%, #080a91 100%);
+border-radius: 30px;
+border: 1px solid #4daee6;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+cursor: pointer;
+}
+
+
+
+
+input[type=submit]:hover {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#64afe0), to(#0709a3));
+background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+}
+
+input[type=submit]:active {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
+background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}
+
+

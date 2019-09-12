@@ -1,0 +1,142 @@
+<body style="background-color: #ccc">
+    
+
+    <div id="img">
+
+            <img src="/assets/try.png">
+    </div>
+    <div id="container">
+            
+        <mat-card  [style]="{width: '300px', height: '183px', 'background-color': '#fff'}" styleClass="custom">
+                    
+            <mat-card-title >   
+                    <p id="usd_header"> USD &nbsp;ACCOUNT</p>
+            </mat-card-title>
+            <p id="usd">
+                $65,789.89
+            </p>
+            <p id="usd_balance">Account Number: 5235070707</p>
+            
+            <mat-card-footer>
+            <p id="usd_foot"><a href=""> View Details &rarr;</a></p>
+            </mat-card-footer>   
+            
+        </mat-card>
+                    
+    </div>    
+               
+                       
+           
+    <div id="img1">
+
+            <img src="/assets/try1.png">
+    </div>
+    <div id="container1">
+    
+        <mat-card  [style]="{width: '500px', height: '183px', 'background-color': '#fff'}" styleClass="custom">
+                    
+            <mat-card-title >   
+                    <p id="eur_header"> EUR &nbsp;ACCOUNT</p>
+            </mat-card-title>
+            <p id="eur">
+                €65,789.89
+            </p>
+            <p id="eur_balance">Account Number: 5235070707</p>
+            
+            <mat-card-footer>
+            <p id="eur_foot"><a href=""> View Details &rarr;</a></p>
+            </mat-card-footer>   
+            
+        </mat-card>
+    
+    </div>
+
+
+    <div id="img2">
+
+            <img src="/assets/try2.png">
+    </div>
+    <div id="container2">
+            
+        <mat-card  [style]="{width: '500px', height: '183px', 'background-color': '#fff'}" styleClass="custom">
+                    
+            <mat-card-title >   
+                    <p id="gbp_header"> GBP &nbsp;ACCOUNT</p>
+            </mat-card-title>
+            <p id="gbp">
+                £65,789.89
+            </p>
+            <p id="gbp_balance">Account Number: 5235070707</p>
+            
+            <mat-card-footer>
+            <p id="gbp_foot"><a href=""> View Details &rarr;</a></p>
+            </mat-card-footer>   
+            
+        </mat-card>
+                    
+    </div> 
+               
+                       
+           
+
+    <button id="eod" (click)="myFunction()">End Of Day</button>
+    
+    <div id="container3">
+    
+            <div id="sugg_head">
+                    <p id=head><b>SUGGESTIONS</b></p>
+                </div>  
+            
+        <div id="sugg_body">
+        <p-scrollPanel [style]="{width: '100%', height: '100%', 'background-color': '#0097D0'}" styleClass="custom">
+            
+            <form>
+                <div class="form-group">
+                        <label for="sugg_curr">Suggested Currency</label>
+                        <input type="text" readOnly="sugg_curr" class="form-control" id="sugg_curr" required>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="sugg_amount">Suggested Interest Amount</label>
+                        <input type="text" readOnly="sugg_amount" class="form-control" id="sugg_amount">
+                      </div>
+
+                      <div class="form-group">
+                            <label for="lending_rate">Lending Interest Rate</label>
+                            <input type="text" readOnly="lending_rate" class="form-control" id="lending_rate">
+                      </div>
+                      
+                      <div class="form-group">
+                            <label for="borrow_rate">Borrowing Interest Rate</label>
+                            <input type="text" readOnly="borrow_rate" class="form-control" id="borrow_rate">
+                          </div>
+
+                      <div class="form-group">
+                            <label for="forex_rate">Foreign Exchange Rate</label>
+                            <input type="text" readOnly="forex_rate" class="form-control" id="forex_rate">
+                        </div>
+
+                        <p-dropdown [options]="curr" [(ngModel)]="selectedCurrency" optionLabel="name"></p-dropdown>
+
+                      <button id="lend" class="btn btn-success">Lend/Borrow</button>
+                    
+                         
+                      </form>
+
+
+            
+
+                
+        </p-scrollPanel>
+        </div>  
+        </div> 
+
+    
+
+
+  
+            
+          
+                    
+
+</body>

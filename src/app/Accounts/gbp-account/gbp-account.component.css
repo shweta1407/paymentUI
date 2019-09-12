@@ -1,0 +1,75 @@
+#container{
+    position: fixed;
+    width: 500px;
+    height: 183px;
+    top: 20%;
+    left:33%;
+    
+    
+    
+}
+#img{
+    position: fixed;
+    top: 20%;
+    border-radius: 5px;
+    left:20%;
+}
+a{
+    color: rgb(3, 143, 194);
+}
+
+
+#usd_header{
+    text-align: center;
+    align-self: center;
+    height: 25px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color:#0097D0;
+    border: 1px solid #ccc;
+    margin-top:-10px;
+    width:600px;
+    padding-top:5px;
+    
+}
+#usd{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    
+    
+}
+#usd_balance{
+ text-align: center;
+ margin-top:-25px;
+ 
+}
+#usd_foot{
+    text-align: center;
+    
+}
+
+.custom .ui-card{
+    height: 183px;
+    width: 500px;
+    
+}
+
+button{
+    margin-top:225px;
+    margin-left: 600px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(236, 56, 53); /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#09578b), to(#0709a3));
+    background-image: -moz-linear-gradient(top left 90deg, #0d689c 0%, #0d1eb6 100%);
+    background-image: linear-gradient(top left 90deg, #095f91 0%, #080a91 100%);
+    border-radius: 30px;
+    border: 1px ;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+    }

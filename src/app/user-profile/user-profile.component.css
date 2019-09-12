@@ -1,0 +1,145 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 10%;
+    width: 40%;
+    background-color:#fff;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 10%;
+    width: 40%;
+    background-color:#fff;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #0097D0;
+    padding: 20px;
+    width: 400px;
+    height: 380px;
+    left:25%;
+  }
+
+  .container1 {
+    border-radius: 5px;
+    background-color: #0097D0;
+    padding: 20px;
+    width: 400px;
+    height: 380px;
+    left: 50%;
+  }
+
+  input[type=text], select, textarea {
+    /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+     /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: rgb(7, 7, 7);
+padding-left: 10px;
+margin: 10px;
+margin-top: 5px;
+margin-left: 15px;
+width: 320px;
+height: 35px;
+
+
+-webkit-transition: all .4s ease;
+-moz-transition: all .4s ease;
+transition: all .4s ease;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  label {
+    color: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+    #userinfo {
+      margin-top:10px;
+      margin-left:5px;
+      width: 150px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgb(236, 56, 53); /*IE fallback*/
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#09578b), to(#0709a3));
+      background-image: -moz-linear-gradient(top left 90deg, #0d689c 0%, #0d1eb6 100%);
+      background-image: linear-gradient(top left 90deg, #095f91 0%, #080a91 100%);
+      border-radius: 30px;
+      border: 1px solid #4daee6;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+      cursor: pointer;
+      }
+
+      #accinfo {
+        margin-top:20px;
+        margin-left:5px;
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: rgb(236, 56, 53); /*IE fallback*/
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#09578b), to(#0709a3));
+        background-image: -moz-linear-gradient(top left 90deg, #0d689c 0%, #0d1eb6 100%);
+        background-image: linear-gradient(top left 90deg, #095f91 0%, #080a91 100%);
+        border-radius: 30px;
+        border: 1px solid #4daee6;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+        cursor: pointer;
+        }
+  
+input[type=text]:hover,
+input[type=password]:hover {
+border: 1px solid #b6bfc0;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+border: 1px solid #a8c9e4;
+box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
